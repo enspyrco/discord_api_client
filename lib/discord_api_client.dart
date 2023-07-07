@@ -4,5 +4,3 @@
 library discord_api_client;
 
 export 'src/application_command.dart';
-
-// TODO: Export any libraries intended for clients of this package.
