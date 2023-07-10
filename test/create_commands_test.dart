@@ -61,7 +61,7 @@ void main() {
   }, skip: true);
 
   test('hello', () async {
-    final api = DiscordApi(
+    final api = DiscordClient(
         applicationId: applicationId,
         guildId: guildId,
         botToken: botToken,

@@ -6,8 +6,8 @@ import '../discord_api_client.dart';
 
 enum ApplicationScope { global, guild }
 
-class DiscordApi {
-  DiscordApi({
+class DiscordClient {
+  DiscordClient({
     required this.applicationId,
     this.guildId,
     required this.botToken,

@@ -10,4 +10,4 @@
 library discord_api_client;
 
 export 'src/application_command.dart';
-export 'src/api_client.dart';
+export 'src/discord_client.dart';

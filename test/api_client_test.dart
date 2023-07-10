@@ -5,7 +5,7 @@ import 'credentials.dart';
 
 void main() {
   test('Create DartRunner command', () async {
-    final api = DiscordApi(
+    final api = DiscordClient(
         applicationId: applicationId,
         guildId: guildId,
         botToken: botToken,
@@ -23,7 +23,7 @@ void main() {
   }, skip: true); // we skip e2e tests and run individually as desired
 
   test('Create objects and combine into a command', () async {
-    final api = DiscordApi(
+    final api = DiscordClient(
         applicationId: applicationId,
         guildId: guildId,
         botToken: botToken,
@@ -56,7 +56,7 @@ void main() {
   }, skip: true); // we skip e2e tests and run individually as desired
 
   test('Build a command with functions', () async {
-    final api = DiscordApi(
+    final api = DiscordClient(
         applicationId: applicationId,
         guildId: guildId,
         botToken: botToken,
@@ -81,7 +81,7 @@ void main() {
   }, skip: true); // we skip e2e tests and run individually as desired
 
   test('Get commands', () async {
-    var api = DiscordApi(
+    var api = DiscordClient(
         applicationId: applicationId,
         guildId: guildId,
         botToken: botToken,
@@ -92,7 +92,7 @@ void main() {
   }, skip: true); // we skip e2e tests and run individually as desired
 
   test('Delete a command', () async {
-    var api = DiscordApi(
+    var api = DiscordClient(
         applicationId: applicationId,
         guildId: guildId,
         botToken: botToken,
