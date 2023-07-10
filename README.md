@@ -2,9 +2,25 @@
 
 *An API Client for Discord, written in Dart.*
 
-## Missing files
+## Features
 
-Add `test/credentials.dart` with:
+A `DiscordClient` can be used to:
+
+- Create Application Commands
+  - Message commands can be selected by right clicking a message and selecting "Apps" then the name of the command
+  - Slash commands can be used by typing "/" then the name of the command
+- Get info on the current set of application commands
+- Delete an application command
+
+## Getting started
+
+See `example/discord_api_client_example.dart` for how to create and call methods on a `DiscordClient`.
+
+## Additional information
+
+### Missing files
+
+To run the tests and/or example code, add `test/credentials.dart` with:
 
 ```dart
 const guildId = '...';
@@ -18,27 +34,3 @@ For the others, go to <https://discordapp.com/developers/applications/>, select 
 
 - `applicationId`: “General Information” → “APPLICATION ID”
 - `botToken`: “Bot” → “Reset Token” → “Copy”
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.

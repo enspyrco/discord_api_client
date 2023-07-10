@@ -9,5 +9,5 @@ build/
 # https://dart.dev/guides/libraries/private-files#pubspeclock.
 pubspec.lock
 
-# bot token and other credentials used for testing
+# Bot token and other credentials used for testing
 test/credentials.dart
