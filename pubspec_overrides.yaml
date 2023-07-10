@@ -1,0 +1,5 @@
+dependency_overrides:
+  enspyr_lints:
+    git: https://github.com/enspyrco/enspyr_lints
+  json_utils:
+    git: https://github.com/enspyrco/json_utils

@@ -1,5 +1,4 @@
 import 'package:discord_api_client/discord_api_client.dart';
-import 'package:discord_api_client/src/api_client.dart';
 
 import '../test/credentials.dart' as credentials;
 

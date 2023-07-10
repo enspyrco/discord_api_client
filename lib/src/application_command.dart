@@ -1,5 +1,6 @@
+import 'package:json_utils/json_utils.dart';
+
 import 'channels.dart';
-import 'typedefs.dart';
 
 /// See https://discord.com/developers/docs/interactions/application-commands#application-command-object
 ///
